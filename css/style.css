@@ -1,0 +1,44 @@
+body {
+    background-color: #1d2021;
+    color: #fbf1c7;
+    font-size: 19px;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding:67px 100px 67px 100px;
+    position: relative;
+
+}
+
+.header-title {
+    font-size: 50px;
+    text-decoration: none;
+    color: #d5c4a1
+}
+
+.header-subtitle {
+    font-size: 19px;
+}
+
+.content {
+    margin-top: 23px;
+    padding: 20px;
+    border: 2px solid #928374;
+}
+
+.content-title {
+    font-size: 30px;
+    border-bottom: 1px dotted #928374;
+}
+
+
+a {
+    color: #fb4934;
+}
+
+a:hover {
+    color: tomato
+}
