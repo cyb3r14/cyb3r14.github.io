@@ -4,19 +4,17 @@ body {
     font-size: 19px;
 }
 
-
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding:67px 100px 67px 100px;
+    padding: 67px 100px;
     position: relative;
-
 }
 
 .header-title {
     font-size: 50px;
     text-decoration: none;
-    color: #d5c4a1
+    color: #d5c4a1;
 }
 
 .header-subtitle {
@@ -34,11 +32,57 @@ body {
     border-bottom: 1px dotted #928374;
 }
 
-
 a {
     color: #fb4934;
 }
 
 a:hover {
-    color: tomato
+    color: tomato;
+}
+
+/* responsive :fire: */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 40px 20px;
+    }
+
+    .header-title {
+        font-size: 36px;
+    }
+
+    .header-subtitle {
+        font-size: 16px;
+    }
+
+    .content {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .content-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .header-title {
+        font-size: 28px;
+    }
+
+    .header-subtitle {
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .content-title {
+        font-size: 20px;
+    }
 }
