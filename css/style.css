@@ -1,6 +1,6 @@
 body {
-    background-color: #1d2021;
-    color: #fbf1c7;
+    background-color: #000;
+    color: #fff;
     font-size: 19px;
 }
 
@@ -14,7 +14,7 @@ body {
 .header-title {
     font-size: 50px;
     text-decoration: none;
-    color: #d5c4a1;
+    color: #fff;
 }
 
 .header-subtitle {
@@ -24,12 +24,19 @@ body {
 .content {
     margin-top: 23px;
     padding: 20px;
-    border: 2px solid #928374;
+    border: 2px solid #fff;
 }
 
 .content-title {
     font-size: 30px;
-    border-bottom: 1px dotted #928374;
+    border-bottom: 1px dotted #fff;
+}
+
+
+#squid {
+  width: 100px;
+  height: auto;
+
 }
 
 a {
